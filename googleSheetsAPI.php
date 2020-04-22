@@ -16,7 +16,7 @@
 	$userId = $deCode['events'][0]['source']['userId'];
 	$type = $deCode['events'][0]['type'];
 
-	$token = "SNhLPQkWDfSJz+EAdY9T+7d0Nk0AMu7NTBb5cYm1qB1FkOcmfU8zJ/UMpup5H5/uFDyq0K3RPUWbZwSQy998IuzAoVWyy7EJoUdUmCCfT+U2j/sdgiT1BSmPhU0R8Ie6fp0KMRRrhTpefShjDC2JmgdB04t89/1O/w1cDnyilFU=";
+	$token = SNhLPQkWDfSJz+EAdY9T+7d0Nk0AMu7NTBb5cYm1qB1FkOcmfU8zJ/UMpup5H5/uFDyq0K3RPUWbZwSQy998IuzAoVWyy7EJoUdUmCCfT+U2j/sdgiT1BSmPhU0R8Ie6fp0KMRRrhTpefShjDC2JmgdB04t89/1O/w1cDnyilFU=;
 
 	$LINEProfileDatas['url'] = "https://api.line.me/v2/bot/profile/".$userId;
   	$LINEProfileDatas['token'] = $token;
@@ -38,7 +38,7 @@
 
     $service = new \Google_Service_Sheets($client);
 
-    $spreadsheetId = "1g35qt8PHq5KoF3RFqRfKlhXwVBULHXfSJRjlawwvdRQ";
+    $spreadsheetId = 1g35qt8PHq5KoF3RFqRfKlhXwVBULHXfSJRjlawwvdRQ;
 
     // updateData($spreadsheetId,$service);
     insertData($spreadsheetId,$service,$displayName);
