@@ -32,7 +32,7 @@
 	$client = new \Google_Client();
     $client->setApplicationName('Google Sheets API PHP Quickstart');
     $client->setScopes(\Google_Service_Sheets::SPREADSHEETS);
-    $client->setAuthConfig(__DIR__.'/eastern-crawler-275020-4771c4281052.json');
+    $client->setAuthConfig(__DIR__.'/polynomial-box-275021-c67429da1ce8.json');
     $client->setAccessType('offline');
     // $client->setPrompt('select_account consent');
 
